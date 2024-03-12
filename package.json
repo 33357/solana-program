@@ -1,13 +1,17 @@
 {
   "scripts": {
-    "dev": "ts-node ./src/main.ts"
+    "dev": "ts-node ./src/main.ts",
+    "format": "yarn prettier --write \"**/*.{ts,js,sol}\""
   },
   "dependencies": {
     "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
     "@metaplex/js": "^4.12.0",
     "@solana/spl-token": "^0.4.1",
     "@solana/spl-token-registry": "^0.2.4574",
     "@solana/web3.js": "^1.91.0",
+    "prettier": "^2.7.0",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3"
   }
